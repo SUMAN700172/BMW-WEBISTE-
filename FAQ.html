@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW FAQ</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: #1a1a1a;
+            font-family:Arial, Helvetica, sans-serif;
+
+        }
+        nav{
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+            position:fixed;
+            top:0%;
+            z-index:999;
+            padding:0.5rem 1rem;
+            width:100%;
+            background:transparent;
+        }
+        .logo{
+            height: 60px;
+            width:60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav-list{
+            display:flex;
+            list-style:none;
+            align-items: center;
+            gap:1.5rem;
+        }
+        .nav-list a {
+            text-decoration:none;
+            color:white;
+            margin-right:40px;
+            transition: background 0.3 ease , transform 0.2 ease;
+        }
+        .nav-list a:hover{
+            background: #fff5f5;
+            transform: translateY(-2px);
+            color:black;
+
+        }
+       .faq{
+        display:wrap ;
+       }
+        .faq img{
+            width: 100%;
+            height:600px;
+        }
+        .faq h1{
+            color: white;
+            margin-left: 50px;
+            margin-top:30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:600px;
+            font-size:40px;
+
+        }
+        .faq input{
+            margin-left: 100px;
+            height: 40px;
+            width: 15%;
+            margin-top: 35px;
+            margin-bottom: 100px;
+            border:none;
+
+        }
+        .faq input:focus{
+             outline: none;
+    background: #ffffff;
+    box-shadow: 0 0 8px #036dff;
+  }
+        
+        .faq ::placeholder{
+            font-weight:800px;
+            background: transparent;
+            color:black;
+            padding-left:10px;
+        }
+       
+        .tic{
+            border:1px solid rgb(245, 242, 242);
+            padding: 9px 20px;
+            margin-left:10px;
+            color:white;
+            text-decoration: none;
+        }
+        .tic :hover{
+            outline:none;
+            background:#ffffff;
+            box-shadow:0 0 8px #036dff;
+        }
+
+
+
+        .faq2{
+           
+            margin-left:40px;
+            margin-right: 40px;
+          
+        }
+
+        .faq-div{
+            border:1px solid white;
+            color:white;
+            margin-bottom: 40px;
+         
+        }
+        .faq-div h3{
+            padding-top:10px;
+            padding-bottom: 10px;
+            padding-left:15px;
+
+        }
+        .faq-div p{
+                 padding-top:10px;
+            padding-bottom: 10px;
+            padding-left:15px;
+        }
+        
+
+    </style>
+</head>
+<body>
+   <header>
+    <nav>
+        <img src="bmw-logo-removebg-preview.png" alt="logo" class="logo">
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="models.html">Models</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+        </ul>
+
+    </nav>
+   </header>
+    <div class="faq">
+       
+        <img src="https://www.bmw.in/in/resource/1756293110000/carousel_img/bmwFaqBanner2024-1920.jpg" alt="faq">
+       <h1>
+        Frequantly Asked Question !
+       </h1>
+       <input type="search" placeholder="Your Question or search term..." id="faq" name="faq">
+       <a href="#id" class="tic">✔</a>
+        
+    </div>
+    <div class="faq2" id="id">
+      
+        <div class="faq-div">
+            <h3>
+               1) How do I activate or deactivate the child lock for the rear doors of my BMW with Operating System 7?
+            </h3>
+            <p>In certain situations, it may be useful to secure the rear doors and windows, e.g. when transporting children. To activate the child lock for the rear doors of your BMW with Operating System 7, slide the locking lever in the door frame of each rear door upwards. To deactivate the child lock, slide the locking lever in the door frame of the secured rear doors downwards. Please note: A detailed description with illustration can be found in the Owner's Handbook for your BMW. The secured door can only be opened from the outside after activating the safety function. To additionally disable various functions, e.g. opening or closing the rear windows, for operation in the rear, press the safety switch in the driver's door.</p>
+        </div>
+         <div class="faq-div">
+            <h3>
+               2) Which functions of the My BMW App can I use on my Apple Watch?
+            </h3>
+            <p>The My BMW App on your Apple Watch informs you about the vehicle status and the range of your BMW. Please note: The My BMW App must be installed on your iPhone and you need an Apple Watch Series 3 or later with watchOS 8 or later.</p>
+        </div>
+         <div class="faq-div">
+            <h3>
+               3) Can I deactivate Comfort Access in my BMW?
+            </h3>
+            <p>No. You cannot deactivate Comfort Access in your BMW. To change the settings for Comfort Access, select the following in your BMW with Operating System 7: "CAR" > "Settings" > "Doors/vehicle access" > "Comfort Access" and activate the desired setting. In your BMW with Operating System 8, select: "MENU" > "Doors & windows" > "Comfort Access".</p>
+        </div>
+         <div class="faq-div">
+            <h3>
+              4) Can I use the anti-theft recorder in the My BMW App?
+
+            <p>In order to be able to use the "anti-theft recorder" service in the My BMW App, your vehicle must have Operating System 8 and the option alarm system (SA 302) and you must be logged in to the My BMW App with your BMW ID.</p>
+        </div>
+         <div class="faq-div">
+            <h3>
+              5)  Can I enter GPS coordinates for a destination in the BMW navigation system?
+
+            </h3>
+            <p>Yes. In your BMW with BMW Live Cockpit and BMW Operating System 7 (version from 7/2020), it is possible to enter GPS coordinates for a destination in the search field. Alternatively, select "NAV > "GPS coordinates". For BMW Welt in Munich, for example, you can enter the coordinates "48.17737, 11.55623".</p>
+        </div>
+       
+    </div>
+</body>
+</html>

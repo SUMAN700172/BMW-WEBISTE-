@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW models</title>
+    <style>
+      html{
+        scroll-behavior:smooth;
+      }
+        *{
+            margin:0;
+            padding:0;
+            background: #1a1a1a;
+            box-sizing:border-box;
+        }
+        body {
+  font-family: Arial, sans-serif;
+  background: #1a1a1a;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2A7B9B;
+  padding: 0.5rem 1rem;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:999;
+  background: transparent;
+  
+}
+.logo {
+  height: 60px;
+  width:60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin-right:30px;
+  transition:background 0.3 ease , transform 0.2 ease;
+}
+
+.nav-list li a:hover{
+  color:rgb(31, 3, 3);
+  background-color: white;
+  border-radius: 2px;
+}
+        .section7 h1{
+  color:#f4f3f3;
+  text-align: center;
+  font-weight:600;
+  font-size:50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top:100px;
+  margin-bottom:50px;
+  letter-spacing:2px;
+}
+.car-container {
+            display: flex;
+            background: #1a1a1a;
+            grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto; 
+            padding: 0 20px;
+        }
+
+        
+        .car {
+            border: 1px solid rgb(12, 13, 16);
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden; 
+            padding-bottom: 20px;
+            transition: transform 0.2s ease;
+        }
+        .car:hover {
+            transform: translateY(-7px);
+            box-shadow: 4px 10px 12px rgba(185, 183, 183, 0.2);
+        }
+.car a{
+  text-decoration: none;
+  color:white;
+  font-size: large;
+  background-color: rgb(8, 8, 8);
+  margin-left:30px;
+
+
+} 
+.car-container2 {
+            display: flex;
+            background: #1a1a1a;
+            grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto; 
+            padding: 0 20px;
+        }       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="bmw-logo-removebg-preview.png" alt="bmw-logo" class="logo">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="models.html"> Models</a></li>
+                <li><a href="contact.html">Conatct</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                          </ul>
+
+        </nav>
+    </header>
+    <section class="section7">
+  <div>
+    <h1>
+      TOP MODELS
+    </h1>
+  </div>
+  <div class="car-container">
+
+ 
+  <div class="car">
+   <a href="m5.html"><img src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m440i-coup%C3%A9-flyout.png?imwidth=1440" alt="car1"></a> 
+    <a href="m5.html"> BMW M5 SEDAN ></a>
+  </div>
+  <div class="car">
+   <a href="m4.html"><img src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m4-cs-flyout.png?imwidth=1440" alt="car2"></a> 
+    <a href="m4.html">BMW M4 COUPE ></a>
+  </div>
+  <div class="car">
+    <a href="m3.html"><img src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m3-competition-sedan-m-xdrive-lci-flyout.png?imwidth=1440" alt="car3"></a>
+    <a href="m3.html">BMW B3 SEDAN ></a>
+  </div>
+  </div>
+  <div class="car-container2">
+  <div class="car">
+   <a href="m2.html"><img src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m2-lci-flyout.png?imwidth=1440" alt="car4"></a> 
+    <a href="m2.html">BMW M2 COUPE ></a>
+  </div>
+  <div class="car">
+    <a href="m1.html"><img src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m135i-xdrive-f70-flyout.png?imwidth=1440" alt="car5"></a>
+    <a href="m1.html">BMW M135 ></a>
+  </div>
+  <div class="car">
+    <a href="M850i.html"><img src="Bmw m805i.avif" alt="car6"></a>
+    <a href="M850i.html">BMW M850i ></a>
+  </div>
+   </div>
+    
+ </section>
+ <!-- <section class="section8">
+  <video muted loop autoplay >
+    <source type="video.mp4/" src="bmw video.mp4">
+
+  </video>
+
+ </section> -->
+ 
+</body>
+</html>
